@@ -1,4 +1,3 @@
-cat <<EOF > .gitignore
 # Terraform
 .terraform/
 terraform.tfstate
@@ -6,6 +5,7 @@ terraform.tfstate.backup
 
 # Keys or secrets
 *.pem
+*.pub
 
 # Python cache
 __pycache__/
@@ -13,5 +13,4 @@ __pycache__/
 # Logs and temp
 *.log
 *.tmp
-EOF
 
