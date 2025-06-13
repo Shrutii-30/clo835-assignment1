@@ -1,0 +1,14 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# SSH key (if placed here accidentally)
+*.pem
+
+# Python cache
+__pycache__/
+
+# Any local test files
+*.log
+*.tmp
